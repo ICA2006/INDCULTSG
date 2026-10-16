@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INDIAN CULTURAL ASSOCIATION, SINGAPORE</title>
+
+    <link rel="icon" type="image/png" href="./CCF/logo.png">
+
+    <meta name="description" content="Indian Cultural Association Singapore, a truly volunteer organisation established with the primary aim of socio-cultural integration of the Indian diaspora in Singapore.">
+
+    <meta name="keywords" content="Indian Cultural Association Singapore, Singapore, Association, Malayali, Kerala, Samajam, Kerala Association, Singapore Malayalee, Children Cultural Festival, Children Arts Singapore, Singapore Vishu">
+
+    <link href="./CCF/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./CCF/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./CCF/superfish.css" media="screen">
+    <link href="./CCF/camera.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="./CCF/jquery.js.download"></script>
+    <script src="./CCF/superfish.js.download"></script>
+    <script src="./CCF/move-top.js.download"></script>
+    <script src="./CCF/jquery.easing.min.js.download"></script>
+
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                var example = $("#example").superfish({});
+
+                $(".destroy").on("click", function () {
+                    example.superfish("destroy");
+                });
+
+                $(".init").on("click", function () {
+                    example.superfish();
+                });
+
+                $(".open").on("click", function () {
+                    example.children("li:first").superfish("show");
+                });
+
+                $(".close").on("click", function () {
+                    example.children("li:first").superfish("hide");
+                });
+            });
+        })(jQuery);
+    </script>
+
+    <script>
+        jQuery(function ($) {
+            if ($.fn.camera) {
+                $("#camera_wrap_1").camera({
+                    height: "400",
+                    pagination: false,
+                    thumbnails: false,
+                    imagePath: "./CCF/"
+                });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- Header -->
+        <div class="header">
+        </div>
+
+        <!-- Navigation -->
+        <div class="top-nav">
+
+            <div class="logo">
+                <img
+                    src="./CCF/logo.png"
+                    alt="Indian Cultural Association"
+                    title="Indian Cultural Association">
+            </div>
+
+            <div class="top-social-icons">
+                <ul>
+                    <li>
+                        <a
+                            class="icon1"
+                            href="https://www.facebook.com/icasingapura/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                src="./CCF/facebook_logo.jpg"
+                                alt="Facebook"
+                                title="Indian Cultural Association">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="sf-menu sf-menu2" id="example">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+
+                <li>
+                    <a href="Activities.html">Activities</a>
+                </li>
+
+                <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>
+
+                <li class="active">
+                    <a href="CCF2027.html">CCF2027</a>
+                </li>
+
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <div class="clear"></div>
+        </div>
+
+        <!-- Main Content -->
+        <main style="text-align: center;">
+
+            <p>&nbsp;</p>
+
+            <img
+                src="./CCF/ccf2027.png"
+                alt="Children Cultural Festival 2027"
+                style="width: 40%; max-width: 100%; height: auto;">
+
+            <p>&nbsp;</p>
+
+            <!-- Registration -->
+            <p>
+                FOR REGISTRATION
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSet8-GGTAzZjKgJ33KSksiJKT1kYisS_zX8TF3TUBw4uQPblw/viewform?usp=preview"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="font-size: 1.8em; color: green; font-weight: bold;">
+                    CLICK HERE
+                </a>
+            </p>
+
+            <p>&nbsp;</p>
+
+            <p>OR SCAN ME FOR REGISTRATION</p>
+
+            <img
+                src="./CCF/QRCode_CCF2027.png"
+                alt="Scan this QR code to register for CCF 2027"
+                style="width: 15%; max-width: 100%; height: auto;">
+
+            <p>&nbsp;</p>
+
+            <!-- Rules and Regulations -->
+            <p>
+                FOR RULES AND REGULATIONS
+                <a
+                    href="https://indiasg.com/CCFRules2027.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="font-size: 1.8em; color: red; font-weight: bold;">
+                    CLICK HERE
+                </a>
+            </p>
+
+            <p>&nbsp;</p>
+
+            <!-- Birth Year and Eligible Categories -->
+            <p style="color: black; font-weight: bold;">
+                Birth year and eligible categories
+            </p>
+
+            <img
+                src="./CCF/Age2027.jpeg"
+                alt="CCF 2027 birth year and eligible categories"
+                style="width: 60%; max-width: 100%; height: auto;">
+
+            <p>&nbsp;</p>
+
+        </main>
+
+        <div class="clear"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="wrap">
+
+                <div class="footer-left">
+                    <a href="index.html">Indian Cultural Association</a>
+                </div>
+
+                <div class="footer-right">
+                    <p>
+                        | Design by
+                        <a
+                            href="https://www.linkedin.com/in/sreejith-palliveetil-96944233/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Sreejith
+                        </a>
+                    </p>
+
+                    <script>
+                        jQuery(function ($) {
+                            if ($.fn.UItoTop) {
+                                $().UItoTop({
+                                    easingType: "easeOutQuart"
+                                });
+                            }
+                        });
+                    </script>
+
+                    <a
+                        href="https://indiasg.com/"
+                        id="toTop"
+                        style="display: block;"
+                        aria-label="Back to top">
+                        <span id="toTopHover" style="opacity: 1;"></span>
+                    </a>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div>
+
+        <!-- End Footer -->
+
+    </div>
+</body>
+</html>
